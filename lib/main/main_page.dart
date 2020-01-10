@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bio/main/cupertino_home_scaffold.dart';
+import 'package:flutter_bio/main/cupertino_main_scaffold.dart';
 import 'package:flutter_bio/main/tab_item.dart';
 import 'package:flutter_bio/main/tabs/hamza.dart';
 import 'package:flutter_bio/main/tabs/home.dart';
@@ -28,7 +28,7 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoHomeScaffold(
+    return CupertinoMainScaffold(
       currentTab: _currentTab,
       onSelectTab: _select,
       widgetBuilders: widgetBuilders,
